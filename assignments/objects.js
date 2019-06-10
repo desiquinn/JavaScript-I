@@ -65,11 +65,11 @@ console.log(mitzi.name);
 
 // Kennan's ID
 
-console.log(kennan.id);
+console.log("Kennan's id is: " + kennan.id);
 
 // Keven's email
 
-console.log(keven.email);
+console.log("Keven's email is: " + keven.email);
 
 // Gannie's name
 
@@ -77,7 +77,7 @@ console.log(gannie.name);
 
 // Antonietta's Gender
 
-console.log(antonietta.gender);
+console.log("Antonietta's gender is: " + antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
@@ -98,7 +98,7 @@ antonietta.multiplyNums = function(num1, num2) {
   return product;
 };
 
-console.log(antonietta.multiplyNums(3,4));
+console.log("Product of 3 & 4: " + antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
